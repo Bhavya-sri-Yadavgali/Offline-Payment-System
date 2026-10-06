@@ -1,0 +1,3 @@
+An offline payment system enables financial transactions to occur without requiring an active internet connection or direct cellular network access at the point of exchange.
+
+In conventional digital payments (like standard UPI, card POS terminals, or online banking), every transaction requires real-time 3-way synchronization between the buyer's device, payment gateway/switch, and the issuing/acquiring banks to verify balances and prevent fraud. Offline payments remove the real-time server lookup dependency, settling the balances later.
