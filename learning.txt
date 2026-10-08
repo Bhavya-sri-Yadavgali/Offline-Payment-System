@@ -1,3 +1,16 @@
+DAY - 1
 An offline payment system enables financial transactions to occur without requiring an active internet connection or direct cellular network access at the point of exchange.
 
 In conventional digital payments (like standard UPI, card POS terminals, or online banking), every transaction requires real-time 3-way synchronization between the buyer's device, payment gateway/switch, and the issuing/acquiring banks to verify balances and prevent fraud. Offline payments remove the real-time server lookup dependency, settling the balances later.
+
+DAY - 2
+Flowpay is NOT creating its own digital money/wallet and then transferring money locally.
+
+Instead, it provides a better Android interface over existing UPI payment rails that can work without mobile internet:
+
+*99# → USSD
+UPI 123Pay → IVR/call-based payment
+
+The repository explicitly says it has no backend and no INTERNET permission
+
+Flowpay lets users initiate UPI payments without mobile internet by using existing telecom-based UPI rails such as USSD and UPI 123Pay.
